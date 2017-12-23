@@ -1,9 +1,5 @@
 <?php
 echo hello
-
-alert("Hello World");
-
-function alert($msg) {
-    echo "<script type='text/javascript'>alert('$msg');</script>";
-}
+$message = "wrong answer";
+echo "<script type='text/javascript'>alert('$message');</script>";
 ?>
